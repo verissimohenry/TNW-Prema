@@ -38,6 +38,7 @@ body {
 
 .nav-logo svg {
   margin: 12px;
+  background-color: black"
 }
 
 .srchicon {
@@ -45,14 +46,6 @@ body {
   height: 48px;
   float: right;
   border-left: 1px solid #eee;
-}
-
-.big-logo {
-  display: none;
-}
-
-.date {
-  display: none;
 }
 
 .hambutt {
@@ -99,7 +92,7 @@ body {
 
 /* ************************articles-flex-3***************************** */
 
-.layer_top1>a {
+.layer_top1 > a {
   width: auto;
   display: grid;
   color: white;
@@ -114,51 +107,51 @@ body {
   font-size: smaller;
 }
 
-.layer_top2>a {
+.layer_top2 > a {
   margin-left: 32%;
   color: #131313;
 }
 
-/* highlight */
-.part1>a {
+/*   highlight  */
+.part1 > a {
   color: #f42;
   font-weight: bolder;
   font-size: 23px;
 }
 
-/* highlight */
+/*   highlight  */
 
-.layer_bot>div>a {
+.layer_bot > div > a {
   color: #000;
 }
 
-.before_image>p>a {
+.before_image > p > a {
   color: #f42;
   font-weight: bold;
 }
 
-.layer_bot>div>span>a {
+.layer_bot > div > span > a {
   color: #3f3d3d;
   font-size: small;
 }
 
-/* highlight */
+/*   highlight  */
 
-.section5_items>div>h4>a {
+.section5_items > div > h4 > a {
   color: #000;
   font-weight: bolder;
   font-size: 14px;
 }
 
-/* highlight */
+/*   highlight  */
 
-/* highlight */
+/*   highlight  */
 
-.part1>a:hover {
+.part1 > a:hover {
   color: black;
 }
 
-/* highlight */
+/*   highlight  */
 
 #menu_color {
   color: #f42;
@@ -168,21 +161,21 @@ body {
   cursor: pointer;
 }
 
-/* highlight */
+/*  highlight  */
 #search_int {
   cursor: pointer;
 }
 
-/* highlight */
+/*  highlight  */
 
-/* highlight */
-.before_image>p>a:hover {
+/*  highlight  */
+.before_image > p > a:hover {
   border-bottom: 1px solid #f42;
 }
 
-/* highlight */
+/*  highlight  */
 
-.layer_bot>div>span>a:hover {
+.layer_bot > div > span > a:hover {
   color: black;
 }
 
@@ -206,10 +199,7 @@ body {
 }
 
 .art1 {
-  background-image: linear-gradient(to top right,
-      rgba(230, 26, 26, 0.9),
-      rgba(255, 255, 255, 0)),
-    url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+  background-image: linear-gradient( to bottom right, rgba(230, 26, 26, 0.9), rgba(255, 255, 255, 0) ), url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
   background-position: center;
   background-size: cover;
   grid-column: unset;
@@ -245,10 +235,7 @@ body {
 
 .art-cover {
   transition: background-color 0.4s ease;
-  background-image: linear-gradient(to bottom right,
-      rgba(230, 26, 26, 0.9),
-      rgba(255, 255, 255, 0)),
-    url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background: rgba(0, 0, 0, 0.25) url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   z-index: 2;
   display: block;
   position: absolute;
@@ -284,10 +271,10 @@ body {
   margin-right: 9px;
 }
 
-/* SECTION 2 */
+/*  SECTION 2  */
 
 #title1 {
-  /* highlight 1 */
+  /*  highlight 1  */
   margin: auto;
   display: flex;
   width: 90%;
@@ -297,15 +284,14 @@ body {
   font-weight: bold;
 }
 
-#title1>h3>a {
+#title1 > h3 > a {
   color: #f42;
   font-size: 27px;
   display: block;
-  font-size: 1.17em;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   font-weight: bold;
 }
 
@@ -337,7 +323,7 @@ body {
   color: #adadad;
 }
 
-.section2_items>img {
+.section2_items > img {
   height: 100%;
   width: 100%;
 }
@@ -346,7 +332,7 @@ body {
   color: #f42;
 }
 
-/* highlight 2 */
+/*  highlight 2 */
 
 /* latest funding */
 .founding-cnt {
@@ -418,6 +404,8 @@ body {
 
 .ltst-fndg ul {
   line-height: 1.7;
+  display: flex;
+  float: right;
 }
 
 .foot-botm div {
@@ -439,10 +427,10 @@ body {
   display: none;
 }
 
-/* SECTION 4 */
+/*  SECTION 4  */
 
 #section4 {
-  /* highlight 1 */
+  /*  highlight 1  */
   display: grid;
   grid-template-columns: unset;
   grid-gap: 20px;
@@ -501,13 +489,13 @@ body {
   margin-top: 10px;
 }
 
-.part4>ul>li {
+.part4 > ul > li {
   border-bottom: 1px solid #eee;
   font-size: smaller;
   color: #3f3d3d;
 }
 
-.part4>ul {
+.part4 > ul {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 20px;
@@ -523,7 +511,7 @@ ul li:hover {
   text-decoration: underline;
 }
 
-/* 2 */
+/*  2  */
 
 #part2_2 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png);
@@ -541,7 +529,7 @@ ul li:hover {
   background-size: cover;
 }
 
-/* 3 */
+/*  3  */
 
 #part2_3 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg);
@@ -559,11 +547,11 @@ ul li:hover {
   background-size: cover;
 }
 
-/* highlight 2 */
+/*  highlight 2  */
 
-/* 4 */
+/*  4  */
 
-/* highlight 1 */
+/*  highlight 1 */
 
 #part2_4 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg);
@@ -581,7 +569,7 @@ ul li:hover {
   background-size: cover;
 }
 
-/* 5 */
+/*  5  */
 
 #part2_5 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png);
@@ -600,7 +588,7 @@ ul li:hover {
   background-size: cover;
 }
 
-/* 6 */
+/*  6  */
 
 #part2_6 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png);
@@ -618,7 +606,7 @@ ul li:hover {
   background-size: cover;
 }
 
-/* 7 */
+/*  7  */
 
 #part2_7 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png);
@@ -636,7 +624,7 @@ ul li:hover {
   background-size: cover;
 }
 
-/* 8 */
+/*  8  */
 
 #part2_8 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg);
@@ -654,7 +642,7 @@ ul li:hover {
   background-size: cover;
 }
 
-/* 9 */
+/*  9  */
 
 #part2_9 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg);
@@ -679,9 +667,9 @@ ul li::before {
   list-style-position: inside;
 }
 
-/* highlight 2 */
+/*  highlight 2 */
 
-/* SECTION 5 */
+/*  SECTION 5  */
 
 /* highlight 1 */
 
@@ -711,15 +699,15 @@ ul li::before {
   margin-bottom: 150px;
 }
 
-#title3>div>a {
+#title3 > div > a {
   font-size: 22px;
   color: #f42;
   display: block;
 }
 
-#title3>div>p>a:hover {
+#title3 > div > p > a:hover {
   color: black;
-}
+} 
 
 .section5_items {
   margin: auto;
@@ -730,16 +718,16 @@ ul li::before {
   height: 72px;
 }
 
-.section5_items>img {
+.section5_items > img {
   width: 100%;
   height: 100%;
 }
 
-#title3>div>a:hover {
+#title3 > div > a:hover {
   color: black;
 }
 
-#title3>div>p>a:hover {
+#title3 > div > p > a:hover {
   color: black;
 }
 
@@ -825,7 +813,7 @@ ul li::before {
   margin-bottom: 50px;
 }
 
-.categories h2:first-child a {
+.categories a h2:first-child {
   color: #f00000;
   font-weight: bold;
   font-size: 1.5rem;
@@ -853,7 +841,7 @@ ul li::before {
   line-height: 18px;
 }
 
-.catg-art div header a {
+.catg-art a div header {
   color: #fff;
   font-weight: bold;
   font-size: 20px;
@@ -872,7 +860,6 @@ ul li::before {
   position: absolute;
   float: right;
   background-position: 50%;
-  float: right;
   width: 96px;
   height: 96px;
   background-size: 179px;
@@ -903,8 +890,6 @@ ul li::before {
   display: block;
   clear: both;
 }
-
-.other-news {}
 
 /* Media Query */
 
@@ -985,6 +970,7 @@ ul li::before {
 
   .nav-logo svg {
     margin: 1.2em;
+    background-color: black"
   }
 
   .na-4 {
@@ -1036,6 +1022,7 @@ ul li::before {
   .founding-cnt {
     display: flex !important;
     justify-content: space-between;
+    margin-top: 37px;
   }
 
   .art-main {
@@ -1086,7 +1073,7 @@ ul li::before {
     grid-template-columns: unset;
   }
 
-  /* highlight 2 */
+  /*  highlight 2 */
 
   .foot-lst {
     margin-left: auto;
@@ -1111,7 +1098,7 @@ ul li::before {
   }
 
   #section2 {
-    /* highlight 1 */
+    /*   highlight 1  */
     grid-template-columns: 1fr 1fr 1fr;
   }
 
@@ -1120,12 +1107,12 @@ ul li::before {
     height: 220px;
   }
 
-  .section2_items>img {
+  .section2_items > img {
     height: 135px;
     width: 100%;
   }
 
-  /* highlight 2 */
+  /*  highlight 2 */
 }
 
 /* Desktop */
@@ -1198,20 +1185,18 @@ ul li::before {
     margin-top: -1px;
   }
 
-  .art1 {
-    background-image: linear-gradient(to top right,
-        rgba(230, 26, 26, 0.9),
-        rgba(255, 255, 255, 0)),
-      url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
-    background-position: center;
+  .cover-gradient {
+    background-image: linear-gradient( to bottom right, rgba(230, 26, 26, 0.9), rgba(255, 255, 255, 0) ), url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+    background-position: 0 0;
     background-size: cover;
-    grid-column: unset;
-    grid-row: auto;
-    display: grid;
-    height: 194px;
-    grid-template-rows: 80% 20%;
-    box-shadow: inset -5em -10em 9em -2em rgba(0, 0, 0, 0.685);
-    position: relative;
+    bottom: 4px;
+    left: 4px;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 4;
   }
 
   .na-3 {
@@ -1288,33 +1273,41 @@ ul li::before {
   }
 
   #section2 {
-    /* highlight */
+    /*  highlight  */
     width: 90%;
     grid-gap: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  /* highlight */
+  /*  highlight  */
 
-  .section2_items>div {
+  .section2_items > div {
     display: grid;
   }
 
-  .section2_items>div>div {
+  .foot-botm div p {
+    bottom: 6px;
+  }
+
+  .foot-botm div {
+    padding-top: 0%;
+  }
+
+  .section5_items > div {
+    margin-left: 5%;
+  }
+
+  .section2_items > div > div {
     display: flex;
     align-items: flex-start;
   }
 
   #section4 {
-    /* highlight 1 */
+    /*  highlight 1 */
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .section5_items>div {
-    margin-left: 5%;
-  }
-
-  .section5_items>div>p>a {
+  .section5_items a > div > p {
     font-size: 17px;
   }
 
@@ -1328,37 +1321,14 @@ ul li::before {
     height: 201px;
   }
 
-  .section5_items>img {
+  .section5_items > img {
     width: 100%;
     height: 201px;
   }
 
-  .big-logo {
-    display: block;
-    position: absolute;
-    top: -478px;
-    padding-left: 4px;
-  }
-
-  .date {
-    display: block;
-    color: white;
-    position: relative;
-    top: -426px;
-    right: -688px;
-  }
-
-  /* highlight 2 */
+  /*  highlight 2 */
 
   .main-sec {
     top: 77px;
-  }
-
-  .foot-botm div {
-    padding-top: 0%;
-  }
-
-  .foot-botm div p {
-    bottom: 6px;
   }
 }
