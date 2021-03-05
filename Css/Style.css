@@ -1015,11 +1015,11 @@ ul li::before {
   .article3 {
     display: grid;
     grid:
-      "main main right-top"
-      "main main right-top"
-      "main main right-bottom"
-      "main main right-bottom";
-  }
+      'main main right-top'
+      'main main right-top'
+      'main main right-bottom'
+      'main main right-bottom';
+    }
 
   .founding-cnt {
     display: flex !important;
