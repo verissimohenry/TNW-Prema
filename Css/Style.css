@@ -404,6 +404,8 @@ body {
 
 .ltst-fndg ul {
   line-height: 1.7;
+  display: flex;
+  float: right;
 }
 
 .foot-botm div {
@@ -1022,6 +1024,7 @@ ul li::before {
   .founding-cnt {
     display: flex !important;
     justify-content: space-between;
+    margin-top: 37px;
   }
 
   .art-main {
