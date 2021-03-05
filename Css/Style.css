@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   padding: 0;
+  font-family: sans-serif
 }
 
 * {
@@ -198,7 +199,7 @@ body {
 }
 
 .art1 {
-  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+  background-image: linear-gradient(to bottom right, rgba(230, 26, 26, 0.9), rgba(255, 255, 255, 0)), url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
   background-position: center;
   background-size: cover;
   grid-column: unset;
@@ -253,21 +254,30 @@ body {
   bottom: 0;
   padding: 13px;
   margin-bottom: -5px;
+  font-family: sans-serif
 }
 
 .arthead h2 {
   font-size: 25px;
   font-weight: bold;
+  font-family: sans-serif
+}
+
+.opal {
+  font-size: 40px;
+  font-family: sans-serif
 }
 
 .arthead ul {
   display: flex;
   margin-top: 4px;
+  font-family: sans-serif
 }
 
 .arthead ul li {
   font-size: 20px;
   margin-right: 9px;
+  font-family: sans-serif
 }
 
 /*  SECTION 2  */
@@ -401,10 +411,14 @@ body {
   color: #f42;
 }
 
-.ltst-fndg ul {
+.ltst-fndg {
   line-height: 1.7;
   display: flex;
   float: right;
+}
+
+.more {
+  display: flex;
 }
 
 .foot-botm div {
@@ -698,14 +712,14 @@ ul li::before {
   margin-bottom: 150px;
 }
 
-/*  #title3 > div > a {
+title3 > div > a {
   font-size: 22px;
   color: #f42;
   display: block;
 }
 #title3 > div > p > a:hover {
   color: black;
-} */
+} 
 
 .section5_items {
   margin: auto;
@@ -734,7 +748,7 @@ ul li::before {
 /* footer */
 
 .tnw-foot {
-  margin-top: 70px;
+  margin-top: 585px;
   padding: 1px;
   position: relative;
   text-align: center;
@@ -1070,6 +1084,14 @@ ul li::before {
     grid-template-columns: unset;
   }
 
+  .ltst-fndg {
+    background-color: #fffaf8;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px
+  }
+
   /*  highlight 2 */
 
   .foot-lst {
@@ -1183,7 +1205,7 @@ ul li::before {
   }
 
   .cover-gradient {
-    background: transparent url(/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+    background-image: linear-gradient(to bottom right, rgba(230, 26, 26, 0.9), rgba(255, 255, 255, 0)), url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
     background-position: 0 0;
     background-size: cover;
     bottom: 4px;
@@ -1220,6 +1242,21 @@ ul li::before {
 
   #srchicon {
     height: 37px;
+  }
+
+  .big-logo {
+    display: block;
+    position: absolute;
+    margin-top: -506px;
+    padding-left: 10px;
+  }
+
+  .date {
+    display: block;
+    color: white;
+    position: relative;
+    top: -418px;
+    float: right;
   }
 
   .article3 {
