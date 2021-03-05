@@ -1123,7 +1123,7 @@ ul li::before {
     display: none;
   }
 
-  nav [class^="na-"] {
+  nav [class^='na-'] {
     width: 100%;
   }
 
@@ -1223,6 +1223,21 @@ ul li::before {
 
   #srchicon {
     height: 37px;
+  }
+
+  .big-logo {
+    display: block;
+    position: absolute;
+    margin-top: -506px;
+    padding-left: 10px;
+  }
+
+  .date {
+    display: block;
+    color: white;
+    position: relative;
+    top: -418px;
+    float: right;
   }
 
   .article3 {
