@@ -1216,7 +1216,6 @@ ul li::before {
 
   .na-3::after {
     clear: both;
-    content: "";
     display: block;
   }
 
