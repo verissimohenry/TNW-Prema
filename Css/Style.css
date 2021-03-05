@@ -1175,7 +1175,6 @@ ul li::before {
   .na-2::after {
     display: block;
     clear: both;
-    content: "";
   }
 
   .naa-1 {
