@@ -85,7 +85,6 @@ body {
 }
 
 .naa-1::after {
-  content: " ";
   clear: both;
   display: block;
 }
