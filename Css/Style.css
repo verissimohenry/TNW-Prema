@@ -218,18 +218,7 @@ body {
   padding: 0 4px 4px 4px;
 }
 
-.art123 {
-  height: 122.09px;
-  background-size: 100% !important;
-}
-
-.art1 {
-  background-image: linear-gradient(
-      to bottom right,
-      rgba(230, 26, 26, 0.9),
-      rgba(255, 255, 255, 0)
-    ),
-    url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+.art1 { background-image: linear-gradient( to bottom right, rgba(230, 26, 26, 0.9), rgba(255, 255, 255, 0) ), url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
   background-position: center;
   background-size: cover;
   grid-column: unset;
@@ -265,9 +254,7 @@ body {
 
 .art-cover {
   transition: background-color 0.4s ease;
-  background: rgba(0, 0, 0, 0.25)
-    url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png")
-    no-repeat;
+  background: rgba(0, 0, 0, 0.25) url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   z-index: 2;
   display: block;
   position: absolute;
@@ -869,8 +856,7 @@ ul li::before {
 }
 
 .img-right {
-  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg)
-    no-repeat;
+  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg)no-repeat;
   position: absolute;
   float: right;
   background-position: 50%;
@@ -1062,22 +1048,6 @@ ul li::before {
 .art123 {
   height: 200px;
   background-size: 200% !important;
-}
-
-.fndg-3 {
-  margin-right: 15px;
-}
-
-.art1 {
-  height: 525px;
-}
-
-.art2 {
-  height: 258px;
-}
-
-.art3 {
-  height: 262.5px;
 }
 
 #section4 {
