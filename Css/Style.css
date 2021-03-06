@@ -319,7 +319,7 @@ body {
   display: grid;
   margin: auto;
   grid-gap: unset;
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .section2_items {
@@ -328,7 +328,7 @@ body {
   grid-gap: 10px;
   grid-template-columns: 25% 75%;
   margin-bottom: 10px;
-  height: 220px; 
+  height: 220px;
 }
 
 .section2_links {
@@ -711,7 +711,7 @@ ul li::before {
   margin: auto;
   margin-bottom: 150px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  height: 600px; 
+  height: 600px;
   width: 90%;
 }
 
