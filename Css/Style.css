@@ -75,20 +75,6 @@ body {
   margin-top: -5px;
 }
 
-.title3 > div > a {
-  font-size: 22px;
-  color: #f42;
-  display: block;
-}
-
-#title3 > div > a:hover {
-  color: black;
-}
-
-#title3 > div > p > a:hover {
-  color: black;
-} 
-
 .na-4 a {
   text-decoration: none;
   position: absolute;
@@ -97,14 +83,6 @@ body {
   top: 10px;
   font-size: 0.8rem;
 }
-
-.naa-1::after {
-  content: " ";
-  clear: both;
-  display: block;
-}
-
-/* ************************articles-flex-3***************************** */
 
 .layer_top1 > a {
   width: auto;
@@ -115,6 +93,8 @@ body {
   margin-right: 25%;
   margin-left: 5px;
 }
+
+/* ************************articles-flex-3***************************** */
 
 .layer_bot2 a {
   color: #3f3d3d;
@@ -159,11 +139,54 @@ body {
 
 /*   highlight  */
 
-/*   highlight  */
-
 .part1 > a:hover {
   color: black;
 }
+
+/*  highlight  */
+.before_image > p > a:hover {
+  border-bottom: 1px solid #f42;
+}
+
+/*  highlight  */
+
+.layer_bot > div > span > a:hover {
+  color: black;
+}
+
+#title1 > h3 > a {
+  color: #f42;
+  font-size: 27px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.title3 > div > a {
+  font-size: 22px;
+  color: #f42;
+  display: block;
+}
+
+#title3 > div > a:hover {
+  color: black;
+}
+
+#title3 > div > p > a:hover {
+  color: black;
+
+}
+
+.naa-1::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+/*   highlight  */
 
 /*   highlight  */
 
@@ -181,17 +204,6 @@ body {
 }
 
 /*  highlight  */
-
-/*  highlight  */
-.before_image > p > a:hover {
-  border-bottom: 1px solid #f42;
-}
-
-/*  highlight  */
-
-.layer_bot > div > span > a:hover {
-  color: black;
-}
 
 .main-sec {
   position: relative;
@@ -304,17 +316,6 @@ body {
   margin-top: 60px;
   margin-bottom: 30px;
   justify-content: start;
-  font-weight: bold;
-}
-
-#title1 > h3 > a {
-  color: #f42;
-  font-size: 27px;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
   font-weight: bold;
 }
 
