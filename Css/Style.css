@@ -455,11 +455,19 @@ body {
   align-items: center;
 }
 
+#part2_1 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
 #part2_1 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -519,15 +527,24 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#part2_2 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 #part3_2 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/header-image-bernie-sitting-meme-analysis.png);
   background-position: center;
   background-size: cover;
+  color: white;
 }
 
 /*  3  */
@@ -537,6 +554,7 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -546,6 +564,13 @@ ul li:hover {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset.jpg);
   background-position: center;
   background-size: cover;
+}
+
+#part2_3 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 /*  highlight 2  */
@@ -559,6 +584,7 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -570,6 +596,13 @@ ul li:hover {
   background-size: cover;
 }
 
+#part2_4 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
 /*  5  */
 
 #part2_5 {
@@ -578,6 +611,7 @@ ul li:hover {
   background-size: cover;
   display: flex;
   width: 100%;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -589,6 +623,13 @@ ul li:hover {
   background-size: cover;
 }
 
+#part2_5 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
 /*  6  */
 
 #part2_6 {
@@ -596,6 +637,7 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -607,6 +649,13 @@ ul li:hover {
   background-size: cover;
 }
 
+#part2_6 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
 /*  7  */
 
 #part2_7 {
@@ -614,6 +663,7 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -625,6 +675,12 @@ ul li:hover {
   background-size: cover;
 }
 
+#part2_7 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
 /*  8  */
 
 #part2_8 {
@@ -632,6 +688,7 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -643,6 +700,13 @@ ul li:hover {
   background-size: cover;
 }
 
+#part2_8 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
 /*  9  */
 
 #part2_9 {
@@ -650,6 +714,7 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
+  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -659,6 +724,14 @@ ul li:hover {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines.jpg);
   background-position: center;
   background-size: cover;
+  color: white;
+}
+
+#part2_9 > a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 ul li::before {
