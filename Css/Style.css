@@ -285,17 +285,6 @@ body {
   font-weight: bold;
 }
 
-#title1 > h3 > a {
-  color: #f42;
-  font-size: 27px;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  font-weight: bold;
-}
-
 #section2 {
   width: 90%;
   height: 750px;
@@ -732,6 +721,17 @@ ul li:hover {
   font-weight: bold;
   font-size: 20px;
   margin-left: 10px;
+}
+
+#title1 > h3 > a {
+  color: #f42;
+  font-size: 27px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
 }
 
 ul li::before {
