@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  padding: 0;
+  padding: 10px;
   font-family: sans-serif;
 }
 
@@ -360,6 +360,8 @@ body {
 /* latest funding */
 .founding-cnt {
   margin-bottom: 40px;
+  padding: 54px;
+  top: -34px;
 }
 
 .fndg-3 img {
@@ -740,7 +742,7 @@ ul li::before {
 /* footer */
 
 .tnw-foot {
-  margin-top: 585px;
+  margin-top: 1136px;
   padding: 1px;
   position: relative;
   text-align: center;
@@ -1025,9 +1027,18 @@ ul li::before {
   .founding-cnt {
     display: flex !important;
     justify-content: space-between;
-    margin-top: 37px;
+    margin-top: 254px;
   }
-
+  
+  .ltst-fndg h2 {
+    text-decoration: none;
+    display: grid;
+    width: 97%;
+    justify-content: space-between;
+    margin: 50px auto 30px auto;
+}
+  }
+  
   .art-main {
     grid-area: main;
   }
@@ -1356,5 +1367,13 @@ ul li::before {
 
   .main-sec {
     top: 77px;
+  }
+
+  .tnw-foot {
+    margin-top: 934px;
+    padding: 1px;
+    position: relative;
+    text-align: center;
+    background-color: #131313;
   }
 }
