@@ -416,17 +416,15 @@ body {
   color: #f42;
 }
 
-.ltst-fndg {
-  line-height: 1.7;
-  display: flex;
-  float: right;
-}
-
 .more {
   display: flex;
 }
 
 .foot-botm div {
+  margin-top: 2%;
+  display: flex;
+  height: 101px;
+  justify-content: center;
   padding-top: 7%;
   height: 101px;
 }
@@ -450,11 +448,11 @@ body {
 #section4 {
   /*  highlight 1  */
   display: grid;
-  grid-template-columns: unset;
   grid-gap: 20px;
   width: 97%;
   height: auto;
   margin: auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 .section4_items {
@@ -709,12 +707,12 @@ ul li::before {
 
 #section5 {
   display: grid;
-  grid-template-columns: unset;
   grid-gap: 20px;
-  width: 90%;
-  height: auto;
   margin: auto;
   margin-bottom: 150px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 600px; 
+  width: 90%; 
 }
 
 .section5_items {
@@ -723,7 +721,7 @@ ul li::before {
   grid-template-columns: 20% 80%;
   width: auto;
   grid-column-gap: 15px;
-  height: 72px;
+  height: 273px;
 }
 
 .section5_items > img {
@@ -774,6 +772,10 @@ ul li::before {
   margin-top: 2%;
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 46%; 
 }
 
 .footnav3-itm {
@@ -1050,44 +1052,17 @@ ul li::before {
   background-size: 200% !important;
 }
 
-#section4 {
-  grid-template-columns: 1fr 1fr;
-}
-
-#section5 {
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 1000px;
-  width: 97%;
-}
-
-.section5_items {
-  height: 273px;
-  grid-template-columns: unset;
-}
-
 .ltst-fndg {
   background-color: #fffaf8;
   display: grid;
   justify-content: start;
   align-items: center;
   margin-left: 10px;
+  line-height: 1.7;
+  float: right; 
 }
 
 /*  highlight 2 */
-
-.foot-lst {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
-  width: 46%;
-}
-
-.foot-botm div {
-  margin-top: 2%;
-  display: flex;
-  height: 101px;
-  justify-content: center;
-}
 
 .foot-lst ul {
   flex-wrap: nowrap;
@@ -1321,19 +1296,8 @@ ul li::before {
     align-items: flex-start;
   }
 
-  #section4 {
-    /*  highlight 1 */
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .section5_items a > div > p {
     font-size: 17px;
-  }
-
-  #section5 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 600px;
-    width: 90%;
   }
 
   .section5_items {
