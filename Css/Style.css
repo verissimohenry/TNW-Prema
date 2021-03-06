@@ -218,7 +218,8 @@ body {
   padding: 0 4px 4px 4px;
 }
 
-.art1 { background-image: linear-gradient( to bottom right, rgba(230, 26, 26, 0.9), rgba(255, 255, 255, 0) ), url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+.art1 { 
+  background-image: linear-gradient(to bottom right, rgba(230, 26, 26, 0.9), rgba(255, 255, 255, 0)), url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
   background-position: center;
   background-size: cover;
   grid-column: unset;
@@ -318,7 +319,7 @@ body {
   display: grid;
   margin: auto;
   grid-gap: unset;
-  grid-template-columns: unset;
+  grid-template-columns: 1fr 1fr 1fr; 
 }
 
 .section2_items {
@@ -327,7 +328,7 @@ body {
   grid-gap: 10px;
   grid-template-columns: 25% 75%;
   margin-bottom: 10px;
-  height: 80px;
+  height: 220px; 
 }
 
 .section2_links {
@@ -426,7 +427,6 @@ body {
   height: 101px;
   justify-content: center;
   padding-top: 7%;
-  height: 101px;
 }
 
 .fndg-3 div:nth-child(2) {
@@ -712,7 +712,7 @@ ul li::before {
   margin-bottom: 150px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 600px; 
-  width: 90%; 
+  width: 90%;
 }
 
 .section5_items {
@@ -774,8 +774,7 @@ ul li::before {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
-  width: 46%; 
+  width: 46%;
 }
 
 .footnav3-itm {
@@ -858,7 +857,7 @@ ul li::before {
 }
 
 .img-right {
-  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg)no-repeat;
+  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg) no-repeat;
   position: absolute;
   float: right;
   background-position: 50%;
@@ -1059,27 +1058,13 @@ ul li::before {
   align-items: center;
   margin-left: 10px;
   line-height: 1.7;
-  float: right; 
+  float: right;
 }
 
 /*  highlight 2 */
 
-.foot-lst ul {
-  flex-wrap: nowrap;
-}
-
 .foot-lst ul li:last-child {
   left: 0;
-}
-
-#section2 {
-  /*   highlight 1  */
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.section2_items {
-  grid-template-columns: unset;
-  height: 220px;
 }
 
 .section2_items > img {
