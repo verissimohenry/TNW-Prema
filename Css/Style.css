@@ -113,6 +113,12 @@ body {
   font-size: 23px;
 }
 
+.title3 > div > a {
+  font-size: 22px;
+  color: #f42;
+  display: block;
+}
+
 /*   highlight  */
 
 .layer_bot > div > a {
@@ -163,12 +169,6 @@ body {
   margin-inline-start: 0;
   margin-inline-end: 0;
   font-weight: bold;
-}
-
-.title3 > div > a {
-  font-size: 22px;
-  color: #f42;
-  display: block;
 }
 
 #title3 > div > a:hover {
