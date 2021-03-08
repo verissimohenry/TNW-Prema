@@ -44,7 +44,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - The Next Web
-..
+
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.

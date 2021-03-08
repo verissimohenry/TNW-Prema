@@ -18,7 +18,6 @@ body {
 /* *************************Navigation bar 2************************ */
 .nav-logo-tablet {
   display: none;
-  background-color: black;
 }
 
 .toprow-2 [class^="na-"] {
@@ -35,12 +34,10 @@ body {
 .nav-logo {
   width: 106px;
   float: left;
-  background-color: black;
 }
 
 .nav-logo svg {
   margin: 12px;
-  background-color: black;
 }
 
 .srchicon {
@@ -85,14 +82,6 @@ body {
   top: 10px;
   font-size: 0.8rem;
 }
-
-
-.naa-1::after {
-  clear: both;
-  display: block;
-}
-
-/* ************************articles-flex-3***************************** */
 
 .layer_top1 > a {
   width: auto;
@@ -164,12 +153,9 @@ body {
   border-bottom: 1px solid #f42;
 }
 
-.part1 > a:hover {
-
 /*  highlight  */
 
 .layer_bot > div > span > a:hover {
-
   color: black;
 }
 
@@ -216,18 +202,6 @@ body {
 }
 
 /*  highlight  */
-
-
-/*  highlight  */
-.before_image > p > a:hover {
-  border-bottom: 1px solid #f42;
-}
-
-/*  highlight  */
-
-.layer_bot > div > span > a:hover {
-  color: black;
-}
 
 .main-sec {
   position: relative;
@@ -370,8 +344,6 @@ body {
 }
 
 .section2_items > img {
-  height: 100%;
-
   width: 100%;
   height: 135px;
 }
@@ -450,11 +422,6 @@ body {
   color: #f42;
 }
 
-.ltst-fndg ul {
-  line-height: 1.7;
-  display: flex;
-  float: right;
-
 .more {
   display: flex;
   padding: 0 5px;
@@ -508,19 +475,11 @@ body {
   align-items: center;
 }
 
-#part2_1 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
 #part2_1 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -580,24 +539,15 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
-}
-
-#part2_2 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
 }
 
 #part3_2 {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/header-image-bernie-sitting-meme-analysis.png);
   background-position: center;
   background-size: cover;
-  color: white;
 }
 
 /*  3  */
@@ -607,7 +557,6 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -617,13 +566,6 @@ ul li:hover {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset.jpg);
   background-position: center;
   background-size: cover;
-}
-
-#part2_3 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
 }
 
 /*  highlight 2  */
@@ -637,7 +579,6 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -649,13 +590,6 @@ ul li:hover {
   background-size: cover;
 }
 
-#part2_4 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
 /*  5  */
 
 #part2_5 {
@@ -664,7 +598,6 @@ ul li:hover {
   background-size: cover;
   display: flex;
   width: 100%;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -676,13 +609,6 @@ ul li:hover {
   background-size: cover;
 }
 
-#part2_5 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
 /*  6  */
 
 #part2_6 {
@@ -690,7 +616,6 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -702,13 +627,6 @@ ul li:hover {
   background-size: cover;
 }
 
-#part2_6 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
 /*  7  */
 
 #part2_7 {
@@ -716,7 +634,6 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -728,13 +645,6 @@ ul li:hover {
   background-size: cover;
 }
 
-#part2_7 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
 /*  8  */
 
 #part2_8 {
@@ -742,7 +652,6 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -754,13 +663,6 @@ ul li:hover {
   background-size: cover;
 }
 
-#part2_8 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
 /*  9  */
 
 #part2_9 {
@@ -768,7 +670,6 @@ ul li:hover {
   background-position: center;
   background-size: cover;
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
   box-shadow: inset -5em -14em 9em -2em rgba(0, 0, 0, 0.685);
@@ -778,25 +679,6 @@ ul li:hover {
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines.jpg);
   background-position: center;
   background-size: cover;
-  color: white;
-}
-
-#part2_9 > a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
-#title1 > h3 > a {
-  color: #f42;
-  font-size: 27px;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  font-weight: bold;
 }
 
 /*  highlight 2 */
@@ -826,12 +708,6 @@ ul li:hover {
   grid-gap: 20px;
   margin: auto;
   margin-bottom: 150px;
-}
-
-#title3 > div > a {
-  font-size: 22px;
-  color: #f42;
-  display: block;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 600px;
   width: 90%;
@@ -849,14 +725,6 @@ ul li:hover {
 .section5_items > img {
   width: 100%;
   height: 100%;
-}
-
-#title3 > div > a:hover {
-  color: black;
-}
-
-#title3 > div > p > a:hover {
-  color: black;
 }
 
 /* highlight 2 */
@@ -986,7 +854,7 @@ ul li:hover {
 }
 
 .img-right {
-  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg)  no-repeat;
+  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg) no-repeat;
   position: absolute;
   float: right;
   background-position: 50%;
@@ -1143,12 +1011,10 @@ ul li:hover {
     display: block;
     grid-column: 1/2;
     grid-row: 1/8;
-    background-color: black;
   }
 
   .nav-logo svg {
     margin: 1.2em;
-    background-color: black;
   }
 
   .na-4 {
@@ -1205,83 +1071,6 @@ ul li:hover {
       "main main right-bottom";
   }
 
-  .founding-cnt {
-    display: flex !important;
-    justify-content: space-between;
-    margin-top: 37px;
-  }
-
-  .art-main {
-    grid-area: main;
-  }
-
-  .art-tr {
-    grid-area: right-top;
-  }
-
-  .art-br {
-    grid-area: right-bottom;
-  }
-
-  .art123 {
-    height: 200px;
-    background-size: 200% !important;
-  }
-
-  .fndg-3 {
-    margin-right: 15px;
-  }
-
-  .art1 {
-    height: 525px;
-  }
-
-  .art2 {
-    height: 258px;
-  }
-
-  .art3 {
-    height: 262.5px;
-  }
-
-  #section4 {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #section5 {
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 1000px;
-    width: 97%;
-  }
-
-  .section5_items {
-    height: 273px;
-    grid-template-columns: unset;
-  }
-
-  /*  highlight 2 */
-
-  .foot-lst {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    width: 46%;
-  }
-
-  .foot-botm div {
-    margin-top: 2%;
-    display: flex;
-    height: 101px;
-    justify-content: center;
-  }
-
-  .foot-lst ul {
-    flex-wrap: nowrap;
-  }
-
-  .foot-lst ul li:last-child {
-    left: 0;
-    
   .cover-gradient {
     display: none;
   }
@@ -1293,15 +1082,6 @@ ul li:hover {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .section2_items {
-    grid-template-columns: unset;
-    height: 220px;
-  }
-
-  .section2_items > img {
-    height: 135px;
-    width: 100%;
-    
   .ltst-fndg h2 {
     text-decoration: none;
     display: grid;
@@ -1371,6 +1151,7 @@ ul li:hover {
   .na-2::after {
     display: block;
     clear: both;
+    content: "";
   }
 
   .naa-1 {
@@ -1414,6 +1195,7 @@ ul li:hover {
 
   .na-3::after {
     clear: both;
+    content: "";
     display: block;
   }
 
@@ -1424,9 +1206,6 @@ ul li:hover {
   .big-logo {
     display: block;
     position: absolute;
-
-    margin-top: -506px;
-    padding-left: 10px;
     margin-top: -415px;
     padding-left: 4px;
   }
@@ -1434,10 +1213,10 @@ ul li:hover {
   .date {
     display: block;
     color: white;
+    position: relative;
     top: -350px;
     float: right;
     padding-left: 50px;
-
   }
 
   .article3 {
@@ -1508,22 +1287,6 @@ ul li:hover {
     padding-top: 0%;
   }
 
-  .section5_items > div {
-    margin-left: 5%;
-  }
-
-  .section2_items > div > div {
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .foot-botm div {
-    padding-top: 0%;
-  }
-
-  .section5_items a > div > p {
-    font-size: 17px;
-    
   .section5_items > div {
     margin-left: 5%;
   }
