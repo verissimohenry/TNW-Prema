@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Next Web Clone-Milestone2
+# The Next Web Clone-Milestone1
 
 > The Next Web (TNW).
 
@@ -24,14 +24,9 @@
 
 3.open the "index.html" file.
 
-## Authors
+## Author
 
 👤 **Author1**
-# Abdulrahman Naser
-- GitHub: [@githubhandle](https://github.com/Abdona)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdulrahman-nasser-2b7173131/)
-
-👤 **Author2**
 # Verissmo Henry
 - GitHub: [@githubhandle](https://github.com/verissimohenry)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/henry-verissimo-618906167/)
@@ -40,7 +35,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Abdona/Project_Positioning-Floating/pull/3#issue-576494545).
+Feel free to check the [issues page](https://github.com/verissimohenry/TNW-Prema/pull/1#partial-pull-merging).
 
 ## Show your support
 
